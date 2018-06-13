@@ -1,5 +1,7 @@
 FROM anapsix/alpine-java:8u172b11_jdk
 
+LABEL maintainer="Sheldon Rupp <me@shel.io>"
+
 VOLUME ["./" "/app"]
 
 RUN apk add --no-cache --update \
