@@ -43,11 +43,11 @@ Once you have edited `script.txt` (the file where your ducky script goes) to you
 
 **Linux/macOS:**
 ```
-$ docker run --rm -it -v $(pwd):/app -e KB_TYPE=us suce/duck2spark
+$ docker run --rm -it -v $(pwd):/app -e KB_TYPE=us suce/ducky2spark
 ```
 **Windows:**
 ```
-$ docker run --rm -it -v %CD%:/app -e KB_TYPE=us suce/duck2spark
+$ docker run --rm -it -v %CD%:/app -e KB_TYPE=us suce/ducky2spark
 ```
 
 Once finished, in the current folder, you will be presented with a `sketch.ino` file that you can then load into Arduino and upload to your Digispark.
