@@ -2,11 +2,10 @@ FROM anapsix/alpine-java:8u172b11_jdk
 
 VOLUME ["./" "/app"]
 
-RUN apk add --update \
+RUN apk add --no-cache --update \
 	python \
 	git \
-	wget \
-	&& rm -rf /var/cache/apk/*
+	wget
 
 WORKDIR /app
 
