@@ -1,0 +1,7 @@
+README.md
+.gitignore
+Dockerfile
+encoder.jar
+raw.bin
+script.txt
+sketch.ino
