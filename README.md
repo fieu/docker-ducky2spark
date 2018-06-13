@@ -29,11 +29,11 @@ I'm new to Docker, the Dockerfile may look bad. If so, please make an issue expl
 * Common sense
 
 ## Install
-* Clone this repo to your local machine.
-* &nbsp;&nbsp;&nbsp;&nbsp;**Linux:** `git clone https://github.com/NurdTurd/docker-duck2spark.git`
-* &nbsp;&nbsp;&nbsp;&nbsp;**Windows:** Google it.
-* Next, within a terminal, enter the directory.
-* Run `$ docker build -t suce/ducky2spark .`
+1. Clone this repo to your local machine.
+2. &nbsp;&nbsp;&nbsp;&nbsp;**Linux:** `git clone https://github.com/NurdTurd/docker-duck2spark.git`
+3. &nbsp;&nbsp;&nbsp;&nbsp;**Windows:** Google it.
+4. Next, within a terminal, enter the directory.
+5. Run `$ docker build -t suce/ducky2spark .`
 
 Now that we've "installed" it, let's look at the usage.
 ## Usage
