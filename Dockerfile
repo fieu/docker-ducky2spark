@@ -20,4 +20,5 @@ RUN wget -O /app-tools/encoder.jar "https://github.com/hak5darren/USB-Rubber-Duc
 
 CMD java -jar /app-tools/encoder.jar -i /app/script.txt -o /app/raw.bin -l ${KB_TYPE} && \
     python /app-tools/duck2spark/duck2spark.py -i /app/raw.bin -l 1 -f 1000 -o /app/sketch.ino && \
+    rm -rf /app/raw.bin && \
     echo "Converted ducky script to Arduino sketch code using the $KB_TYPE keyboard layout."
