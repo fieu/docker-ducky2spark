@@ -40,6 +40,7 @@ Now that we've "installed" it, let's look at the usage.
 Once you have edited `script.txt` (the file where your ducky script goes) to your liking, let's run the image so it can generate the Arduino code.
 ### Legend:
 * `KB_TYPE` = keyboard layout. Possible options are: `be`, `br`, `ca`, `ch`, `cs`, `de`, `dk`, `es`, `fi`, `fr`, `gb`, `hr`, `it`, `no`, `pt`, `ru`, `si`, `sv`, `tr`, `us`
+
 **Linux/macOS:**
 ```
 $ docker run --rm -it -v $(pwd):/app -e KB_TYPE=us suce/duck2spark
