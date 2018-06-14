@@ -13,7 +13,7 @@
 I wanted an easy way to convert ducky script to uploadable Arduino code for the Digispark development board.
 
 Unfortunately, in order to do this you must use 2 projects/softwares:
-The [`duck2spark`](https://github.com/mame82/duck2spark) project and the [`mame82/duckencoder.py`](https://github.com/hak5darren/USB-Rubber-Ducky/blob/master/Encoder/encoder.jar) project.
+The [`duck2spark`](https://github.com/mame82/duck2spark) project and the [`mame82/duckencoder.py`](https://github.com/mame82/duckencoder.py) project.
 Also you must do everything manually, and it sucks when moving systems because you have to make sure all dependencies such as Python and Java are correctly installed.
 
 ## Solution _(sorta)_
