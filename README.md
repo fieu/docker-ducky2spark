@@ -1,6 +1,3 @@
-
-
-
 <h1 align="center">
   <br>
   <a href="https://github.com/NurdTurd/docker-ducky2spark"><img src="https://i.imgur.com/SdObGuR.png" alt="sad monkey baby" width="200"></a>
