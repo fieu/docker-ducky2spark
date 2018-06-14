@@ -1,5 +1,6 @@
 
 
+
 <h1 align="center">
   <br>
   <a href="https://github.com/NurdTurd/docker-ducky2spark"><img src="https://i.imgur.com/SdObGuR.png" alt="sad monkey baby" width="200"></a>
@@ -15,7 +16,7 @@
 I wanted an easy way to convert ducky script to uploadable Arduino code for the Digispark development board.
 
 Unfortunately, in order to do this you must use 2 projects/softwares:
-The [`duck2spark`](https://github.com/mame82/duck2spark) project and [`Encoder.jar`](https://github.com/hak5darren/USB-Rubber-Ducky/blob/master/Encoder/encoder.jar) from the official Hak5 `hak5darren/USB-Rubber-Ducky` repo.
+The [`duck2spark`](https://github.com/mame82/duck2spark) project and the [`mame82/duckencoder.py`](https://github.com/hak5darren/USB-Rubber-Ducky/blob/master/Encoder/encoder.jar) project.
 Also you must do everything manually, and it sucks when moving systems because you have to make sure all dependencies such as Python and Java are correctly installed.
 
 ## Solution _(sorta)_
@@ -59,4 +60,4 @@ Once finished, in the current folder, you will be presented with a `sketch.ino` 
 
 ## Credit
 * [`mame82/duck2spark`](https://github.com/mame82/duck2spark)
-* [`Encoder.jar`](https://github.com/hak5darren/USB-Rubber-Ducky/blob/master/Encoder/encoder.jar) from the official Hak5 `hak5darren/USB-Rubber-Ducky` repo.
+* [`mame82/duckencoder.py`](https://github.com/mame82/duckencoder.py)
