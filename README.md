@@ -18,7 +18,7 @@ Unfortunately, in order to do this you must use 2 projects/softwares:
 The [`duck2spark`](https://github.com/mame82/duck2spark) project and [`Encoder.jar`](https://github.com/hak5darren/USB-Rubber-Ducky/blob/master/Encoder/encoder.jar) from the official Hak5 `hak5darren/USB-Rubber-Ducky` repo.
 Also you must do everything manually, and it sucks when moving systems because you have to make sure all dependencies such as Python and Java are correctly installed.
 
-## Solution <small>(sorta)</small>
+## Solution _(sorta)_
 Use Docker of course! That way we can develop our script on our local machine, run a small docker command, and everything is done for us within a container and we get only the output we need.
 
 ## Disclaimer
@@ -28,11 +28,11 @@ I'm new to Docker, the Dockerfile may look bad. If so, please make an issue expl
 * Docker
 * Common sense
 
-<h2>Install <small>(automated)</small></h2>
+## Install _(automated)_
 
 1. Run this one-liner: `$ docker build -t suce/ducky2spark github.com/NurdTurd/docker-ducky2spark`
 
-<h2>Install <small>(manual)</small></h2>
+## Install _(manual)_
 
 1. Clone this repo to your local machine.
 2. &nbsp;&nbsp;&nbsp;&nbsp;**Linux:** `$ git clone https://github.com/NurdTurd/docker-ducky2spark.git`
