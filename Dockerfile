@@ -2,6 +2,11 @@ FROM alpine:3.7
 
 LABEL maintainer="Sheldon Rupp <me@shel.io>"
 
+LABEL \
+  org.label-schema.name="docker-ducky2spark" \
+  org.label-schema.url="https://github.com/NurdTurd/docker-ducky2spark.git" \
+  org.label-schema.vcs-url="https://github.com/NurdTurd/docker-ducky2spark.git"
+
 RUN apk add --no-cache --update \
 	python \
 	git
