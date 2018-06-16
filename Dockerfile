@@ -11,8 +11,6 @@ RUN apk add --no-cache --update \
 	python \
 	git
 
-WORKDIR /app
-
 RUN mkdir /app-tools/
 
 WORKDIR /app-tools/
